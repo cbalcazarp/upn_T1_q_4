@@ -10,7 +10,7 @@ namespace upn_T1_q_4
             Console.WriteLine("Conversión de millas a kilómetros");
             Console.Write("Ingrese cantidad de millas: ");
             milla = Convert.ToDouble(Console.ReadLine());
-            km = milla * 1609;
+            km = milla * 1.609;
             Console.WriteLine("El valor en kilómetros es: " + Convert.ToString(km));
         }
     }
